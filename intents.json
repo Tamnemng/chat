@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "hi",
+      "patterns": ["xin chào","chào","chào buổi sáng","chào buổi chiều","chúc mừng","chuyện gì thế","mọi việc thế nào"],
+      "responses": ["Xin chào!","Chào bạn!","Tôi có thể giúp gì cho bạn?"]
+    },
+    
+    {
+      "tag": "name",
+      "patterns": ["tên của bạn là gì","tên","tên của bạn là gì","bạn là ai","tôi nên gọi bạn là gì"],
+      "responses": ["Bạn có thể gọi tôi là Ribot","Tôi là Ribot","Tôi là Ribot, trợ lý ảo của bạn"]
+    },
+    
+    {
+      "tag": "courses",
+      "patterns": ["có những khóa học gì","có bao nhiêu khóa học ở trường này"],
+      "responses": ["Trường Cao đẳng Tin học Pokhara đã hợp tác trực tiếp với Đại học Metropolitan London, Vương quốc Anh để cung cấp giáo dục đại học hấp dẫn về CNTT và Kinh doanh cho sinh viên ở Pokhara. Đối với bằng Cử nhân CNTT, chúng tôi đã cung cấp chuyên ngành Cử nhân Khoa học (Danh dự) Tin học. Đối với cử nhân Quản trị Kinh doanh, chúng tôi đã cung cấp: 1. Cử nhân QTKD (Marketing) với Kinh doanh Quốc tế 2. Cử nhân QTKD (Kế toán & Tài chính) với Kinh doanh Quốc tế 3. Cử nhân QTKD (Kinh doanh Quốc tế)"]
+    },
+    
+    {
+      "tag": "coursesDuration",
+      "patterns": ["khóa học CNTT hoặc QTKD kéo dài bao lâu","mất bao lâu để hoàn thành khóa học CNTT hoặc QTKD"],
+      "responses": ["Trường cao đẳng của chúng tôi cung cấp khóa học CNTT 3 năm và khóa học QTKD 3 năm rưỡi."]
+    },
+
+    {
+      "tag": "Location",  
+      "patterns": ["địa điểm","ở đâu","địa điểm của trường"],
+      "responses": ["Trường Cao đẳng Tin học Pokhara nằm ở Matepani-12, pokhara gần Bệnh viện Gandaki."]
+    },
+
+    {
+      "tag": "semesters",
+      "patterns": ["có bao nhiêu học kỳ trong 1 năm","một năm phải học bao nhiêu học kỳ"],
+      "responses": ["Có hai học kỳ trong một năm."]
+    },
+
+    {
+      "tag": "semDuration",
+      "patterns": ["một học kỳ kéo dài bao nhiêu tháng","một học kỳ kéo dài bao lâu"],
+      "responses": ["Một học kỳ kéo dài khoảng 4 tháng."]
+    },
+
+    {
+      "tag": "studentRequirements",
+      "patterns": ["yêu cầu của sinh viên để nhập học là gì","yêu cầu tuyển sinh","yêu cầu nhập học"],
+      "responses": ["Yêu cầu học vấn: Điểm trung bình chung NEB +2 từ 2.2 CGPA (55%) trở lên với mỗi môn học (lý thuyết và thực hành) điểm D + trở lên và điểm Toán SEE từ C + (50%) trở lên. Đối với A-Levels, tối thiểu 3,5 tín chỉ và ít nhất điểm D trở lên. Năng lực tiếng Anh: Điểm tiếng Anh NEB lớp 12 lớn hơn hoặc bằng 60% hoặc 2,4 điểm GPA. Đối với cấp độ 4 hoặc năm thứ nhất CNTT: Đạt môn Văn bản chung hoặc Ngôn ngữ Anh hoặc IELTS 5.5 hoặc PTE 47 / Đạt điểm UCAS 80. Đối với cấp độ 4 hoặc năm thứ nhất QTKD: Đạt môn Văn bản chung hoặc Ngôn ngữ Anh hoặc IELTS 5.5 hoặc PTE 47 / Đạt điểm UCAS 96."]
+    },
+
+    {
+      "tag": "classes",
+      "patterns": ["một ngày có bao nhiêu lớp","thời lượng một lớp"],
+      "responses": ["Có thể có hai hoặc ba lớp mỗi ngày. Mỗi lớp kéo dài 1 tiếng 30 phút."]
+    },
+
+    {
+      "tag": "teachingStyle",
+      "patterns": ["phương pháp giảng dạy của trường này là gì","Phương pháp giảng dạy có khác so với các trường khác không","định dạng giảng dạy là gì"],
+      "responses": ["Trường của chúng tôi có phương pháp giảng dạy khác so với các trường khác ở Nepal. Chúng tôi áp dụng phương pháp giảng dạy của Anh, theo kỹ thuật LTW - Bài giảng, hướng dẫn và xưởng. Bạn có thể cung cấp thông tin liên hệ của mình và cố vấn của chúng tôi sẽ liên hệ với bạn và cung cấp thêm chi tiết."]
+    },
+
+    {
+      "tag": "exams",
+      "patterns": ["các kỳ thi như thế nào","định dạng thi cử"],
+      "responses": ["Có bài tập về nhà chiếm trọng số nhiều hơn so với bài thi viết. Bài tập về nhà có thời hạn mà bạn không nên vượt quá nếu muốn được điểm cao hơn."]
+    },
+
+    {
+      "tag": "hours",
+      "patterns": ["giờ làm việc của các bạn","khi nào các bạn mở cửa","giờ hoạt động của các bạn"],
+      "responses": ["Bạn có thể nhắn tin cho chúng tôi ở bất kỳ giờ nào. Nhưng cơ sở trường chỉ mở cửa từ 7:00 sáng đến 5:00 chiều."]
+    },
+
+    {
+      "tag": "funActivities",
+      "patterns": ["có hoạt động ngoại khóa không","trường có tổ chức chương trình vui chơi gì không"],
+      "responses": ["Có, tất nhiên. Trường của chúng tôi không chỉ cung cấp giáo dục xuất sắc mà còn khuyến khích học sinh tham gia các hoạt động ngoại khóa khác nhau. Hàng năm nhà trường tổ chức các chương trình như giao lưu thể thao, lễ hội, lễ Holi, và lễ Giáng Sinh. Trường cũng có sân bóng rổ, sân cầu lông, bóng bàn, cờ vua, caro và nhiều khu vực giải trí khác."]
+    },
+
+    {
+      "tag": "facilities",
+      "patterns": ["cơ sở vật chất của trường","cơ sở vật chất dành cho sinh viên"],
+      "responses": ["Với cơ sở vật chất giảng dạy tuyệt vời, Trường còn cung cấp các tiện nghi như internet 24/7, thư viện, lớp học có điều hòa, phòng thảo luận, quán ăn, bãi đỗ xe, và dịch vụ hỗ trợ sinh viên với mọi thắc mắc."]
+    },
+
+    {
+      "tag": "fee",
+      "patterns": ["học phí bao nhiêu","cấu trúc học phí"],
+      "responses": ["Khóa học CNTT: Phí nhập học = 96.000 RPS. Năm 1: Phí ĐH & thi = 100.000 RPS. Mỗi học kỳ 69.000 RPS. Tổng 334.000 RPS. Năm 2: Phí ĐH & thi = 100.000 RPS. Mỗi học kỳ 69.000 RPS. Tổng 238.000 RPS. Năm 3: Phí ĐH & thi = 100.000 RPS. Mỗi học kỳ 69.000 RPS. Tổng 238.000 RPS. Tổng phí: 810.000 RPS. Khóa học QTKD: Phí nhập học = 96.000 RPS. Năm 1: Phí ĐH & thi = 100.000 RPS. Mỗi học kỳ 52.000 RPS. Tổng 300.000 RPS. Năm 2: Phí ĐH & thi = 100.000 RPS. Mỗi học kỳ 52.000 RPS. Tổng 204.000 RPS. Năm 3: Phí ĐH & thi = 100.000 RPS. Mỗi học kỳ 52.000 RPS. Tổng 204.000 RPS. Năm 4: Phí ĐH & thi = 50.000 RPS. Học kỳ 52.000 RPS. Tổng 102.000 RPS. Tổng phí: 810.000 RPS."]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["bye","gặp lại sau","tạm biệt","tôi phải đi đây","chúc một ngày tốt lành","hẹn gặp lại"],
+      "responses": ["Buồn khi phải chia tay :(","Nói chuyện sau nhé","Tạm biệt"]
+    },
+
+    {
+      "tag": "invalid",
+      "patterns": ["","abcdef","@#$#$"],
+      "responses": ["Xin lỗi, tôi không hiểu","Làm ơn cung cấp thêm thông tin","Tôi không chắc là hiểu ý bạn"]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Cảm ơn","Cảm ơn bạn","Rất hữu ích","Tuyệt vời, cảm ơn","Cảm ơn vì đã giúp đỡ"],
+      "responses": ["Rất vui được giúp đỡ!","Bất cứ lúc nào!","Rất hân hạnh được phục vụ!"]
+    }
+
+  ]}
